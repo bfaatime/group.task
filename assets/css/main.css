@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -440,3 +441,79 @@ footer .footer-bottom .footer-legal a {
 footer .footer-bottom .footer-legal a:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
+=======
+main {
+  background-color: #fdf0e9;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .video-header {
+  background-color: #f9eae3;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+main .middle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #391400;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: left;
+}
+main .main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(57, 20, 0, 0.6392156863);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+main .video {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main .video .video-first {
+  width: 640px;
+  border-radius: 10px;
+}
+main .video .img1 {
+  width: 570px;
+  height: 368px;
+  top: 2304px;
+  left: 435px;
+  gap: 0px;
+  opacity: 0px;
+}
+main .video .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+}
+main .video span {
+  color: white;
+  font-size: 24px;
+}
+main .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(57, 20, 0, 0.6392156863);
+}
+>>>>>>> 97c47058d789d77808b677fa56862a3ffe5be514
