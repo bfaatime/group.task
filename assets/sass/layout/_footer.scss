@@ -1,0 +1,121 @@
+
+footer {
+  background-color: #f6ede8;
+  padding: 40px 0;
+  .partners{
+    background-color: bisque;
+    .container{
+        text-align: center;
+        padding: 50px 0;
+      background-color: bisque;
+      .partner-logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+          max-width: 150px;
+          margin: 0 10px;
+        }
+      }
+       // Responsive Design
+       @media (max-width: 768px) {
+        .partner-logos {
+          flex-direction: column;
+    
+          img {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+}
+.aside{
+  background-color: rgb(255, 224, 183);
+  .container{
+
+.about-left{
+  padding-top: 100px;
+  h5{
+    font-size: 24px;
+    color: orangered;
+  }
+  h4{
+    font-size: 16px;
+  }
+  .btn-contact{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+  }
+}
+  }
+}
+
+.footer-bottom {
+    background-color: #1f1d2b;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-links {
+      display: flex;
+      gap: 40px;
+
+      h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 8px;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-social {
+      a {
+        margin: 0 10px;
+        i {
+          height: 50px;
+        }
+      }
+    }
+
+    .footer-legal {
+      text-align: right;
+
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: #999;
+      }
+
+      a {
+        margin-left: 20px;
+        color: #999;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
