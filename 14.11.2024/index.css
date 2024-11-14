@@ -1,0 +1,22 @@
+.box{
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 600px;
+    justify-content: center;
+    background-color: aqua;
+    width: 700px;
+    height: 600px;
+}
+.box1 {
+    font-size: 16px;
+    color: black;
+    height: 100px;
+}
+.box h1 {
+    font-size: 16px;
+}
+.span{
+    color: white;
+    height: 0;
+    background-color: green;
+}
